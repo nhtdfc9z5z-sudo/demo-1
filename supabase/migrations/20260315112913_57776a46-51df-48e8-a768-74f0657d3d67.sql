@@ -1,0 +1,1 @@
+ALTER TABLE public.incidencias ADD COLUMN IF NOT EXISTS causante text;

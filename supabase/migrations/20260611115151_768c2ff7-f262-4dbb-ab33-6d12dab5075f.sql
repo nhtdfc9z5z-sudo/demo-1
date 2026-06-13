@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "Public view incidencia files" ON storage.objects;

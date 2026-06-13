@@ -1,0 +1,1 @@
+ALTER TABLE public.inquilinos ADD COLUMN rol_inquilino text DEFAULT 'inquilino';

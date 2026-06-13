@@ -1,0 +1,2 @@
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS iban text DEFAULT NULL;
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS telefono_bizum text DEFAULT NULL;

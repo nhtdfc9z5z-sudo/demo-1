@@ -1,0 +1,1 @@
+ALTER TABLE public.properties ADD COLUMN IF NOT EXISTS cuota_comunidad_frecuencia text DEFAULT 'mensual';

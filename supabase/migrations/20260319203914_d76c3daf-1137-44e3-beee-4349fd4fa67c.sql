@@ -1,0 +1,1 @@
+ALTER TABLE public.renta_actualizaciones ADD COLUMN ipc_porcentaje numeric NULL;

@@ -1,0 +1,34 @@
+project_id = "uoheygncxbftbfqfqwcu"
+
+[functions.analyze-contrato]
+verify_jwt = true
+
+[functions.analyze-dni]
+verify_jwt = true
+
+[functions.analyze-escritura]
+verify_jwt = true
+
+[functions.chat-contrato]
+verify_jwt = true
+
+[functions.generate-contrato]
+verify_jwt = true
+
+[functions.analyze-seguro-impago]
+verify_jwt = true
+
+[functions.analyze-factura]
+verify_jwt = true
+
+[functions.analyze-presupuesto]
+verify_jwt = true
+
+[functions.extract-template-text]
+verify_jwt = true
+
+[functions.generate-anuncio]
+verify_jwt = true
+
+[functions.generate-comunicacion-contrato]
+verify_jwt = true

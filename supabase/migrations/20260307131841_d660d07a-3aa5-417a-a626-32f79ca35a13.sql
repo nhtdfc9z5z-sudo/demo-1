@@ -1,0 +1,1 @@
+ALTER TABLE public.incidencia_citaciones ADD COLUMN visitante_empresa text DEFAULT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE public.properties ADD COLUMN IF NOT EXISTS titularidad_detalle jsonb NOT NULL DEFAULT '{}'::jsonb;

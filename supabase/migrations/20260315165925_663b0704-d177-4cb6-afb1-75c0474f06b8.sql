@@ -1,0 +1,1 @@
+ALTER TABLE public.contratos_arrendamiento ADD COLUMN revisado_por_usuario boolean NOT NULL DEFAULT false;
