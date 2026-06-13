@@ -21,6 +21,10 @@ export default defineConfig(({ mode }) => ({
       includeAssets: ["favicon.ico", "icon-192.png", "icon-512.png"],
       manifest: false,
       workbox: {
+        // Skip service-worker minification: @rollup/plugin-terser's worker
+        // pool deadlocks on Node 22/macOS during SW generation. The SW is
+        // tiny, so leaving it unminified has no meaningful cost.
+        mode: "development",
         globPatterns: ["**/*.{js,css,html,ico,png,svg,jpg,jpeg,woff2}"],
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         navigateFallbackDenylist: [/^\/~oauth/],
