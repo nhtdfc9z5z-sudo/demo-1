@@ -27,3 +27,17 @@ dist-ssr
 .env
 .env.local
 .env.*.local
+
+# Local-only Supabase access token (never commit)
+.supabase_token
+
+# Local-only Supabase DB password (never commit)
+.supabase_db_password
+
+# Local-only Vercel token (never commit)
+.vercel_token
+.vercel/
+.vercel
+
+# Supabase CLI local cache
+supabase/.temp/
